@@ -25,8 +25,8 @@ const WhoWeInvest = () => {
                         whileInView={"onscreen"}
                         className='title'>
                             {" "}
-                            Digital businesses
-                            <br /> with early tracion
+                            Fueling Success
+                            <br /> Across Every Sector
                         </motion.span>
                     </div>
 
@@ -53,7 +53,7 @@ const WhoWeInvest = () => {
                     variants={containerVariants(0.5)}
                     initial="offscreen"
                     whileInView={"onscreen"}
-                    src="persons.png"
+                    src="dot1.jpeg"
                     alt="persons" />
                 </div>
             </div>

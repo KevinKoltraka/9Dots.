@@ -2,15 +2,15 @@
 :root {
     --dark-bg: #000;
     --light-bg: #f6f7fb;
-    --primary-color: #533fd7;
-    --secondary-color: #00caf9;
+    --primary-color: #820363;
+    --secondary-color: #820363;
     --third-color: #54f3a6;
     --fourth-color: #fee590;
     --text-color: #867eb5;
     --text-secondary: #554b92;
     --text-color-dark: #12183f;
     --text-color-light: #fcf3d4;
-    --title-color: #221577;
+    --title-color: #000;
     --border-color: #6a55f8;
     --border-color-dark: #27263a;
     --border-color-light: #6a55f8;

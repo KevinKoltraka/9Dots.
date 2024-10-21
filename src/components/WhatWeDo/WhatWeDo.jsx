@@ -113,20 +113,20 @@ const WhatWeDo = () => {
                     {/* left side */}
                     <div>
                         <span className="sec-title">
-                            Job Seekers & Employers
+                        Why Choose 9Dots Agency?
                         </span>
                         <span className="des">
-                        9Dots Agency connects job seekers with their ideal opportunities while helping employers attract top talent, creating a win-win for both sides of the hiring process.
+                        Precision Solutions for Growth – Marketing & Recruitment, Perfectly Aligned.
                         </span>
                     </div>
 
                     {/* right side */}
                     <div>
                         <span className='text'>
-                        •At 9Dots Agency, we empower job seekers to find their ideal roles. With personalized support and expert guidance, we connect you with opportunities that match your skills and aspirations. Join us to unlock your potential and take the next step in your career!
+                        •Dual Expertise: Seamlessly integrated Marketing and Recruitment services to grow your brand and build your team, all in one place
                         </span>
                         <span className='text'>
-                        •Attract top talent with 9Dots Agency’s tailored recruitment solutions. We understand your business needs and work diligently to find candidates who not only fit the role but also align with your company culture. Partner with us to streamline your hiring process and build a high-performing team!
+                        •Tailored Solutions: Personalized strategies that address your unique challenges, ensuring impactful and measurable results
                         </span>
                     </div>
                 </motion.div>

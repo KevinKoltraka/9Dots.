@@ -3,14 +3,14 @@
     transition: all 300ms ease-out;
 }
 .tag {
-    color: var(--secondary-color);
+    color: #000;
     font-size: 1.5rem;
     font-weight: bold;
 }
 
 .title {
     font-size: 2.6rem;
-    color: var(--title-color);
+    color: #000;
     font-weight: bold;
     text-align: center;
     line-height: 3.5rem;
@@ -19,13 +19,13 @@
 
 .des {
     font-size: 1.4rem;
-    color: var(--text-color);
+    color: #d716a8;
     line-height: 2rem;
 }
 
 .sec-title {
     font-size: 2rem;
-    color: var(--title-color);
+    color: #000;
     font-weight: 600;
     text-align: center;
     line-height: 3rem;
@@ -33,7 +33,7 @@
 }
 
 .text {
-    color: var(--text-color);
+    color: #000;
     font-size: 1.1rem;
     line-height: 1.8rem;
 }

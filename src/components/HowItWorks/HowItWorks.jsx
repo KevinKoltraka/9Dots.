@@ -32,7 +32,7 @@ const HowItWorks = () => {
                     whileInView={"onscreen"}
                     className='tag'
                     >
-                        How it works
+                        The 9Dots Way
                     </motion.span>
                     <motion.span 
                     variants={titleVariants}
@@ -40,7 +40,7 @@ const HowItWorks = () => {
                     whileInView={"onscreen"}
                     className='title'
                     >
-                        Unlocking potential alomg the growth journey
+                        Unlocking potential along the growth journey
                     </motion.span>
                 </div>
                 {/* features */}

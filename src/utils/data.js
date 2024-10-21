@@ -60,17 +60,17 @@ export const HeroData = [
   
   export const ourDiffFeatures = [
     {
-      icon: "/OurDiff/Frame-0.png",
+      icon: "/OurDiff/job-search.gif",
       title: "Job Seekers",
       des: "Our mission is to empower job seekers by connecting them with fulfilling career opportunities that align with their skills and aspirations.",
     },
     {
-      icon: "/OurDiff/Frame-1.png",
+      icon: "/OurDiff/career-advancement.gif",
       title: "Career Matchmaking",
       des: "Career Matchmaking: Uniting Job Seekers and Employers for Mutual Success.",
     },
     {
-      icon: "/OurDiff/Frame-2.png",
+      icon: "/OurDiff/employment.gif",
       title: "Employers",
       des: "Empowering employers to find and connect with top talent, ensuring their teams are built for success and growth.",
     },
@@ -78,38 +78,38 @@ export const HeroData = [
   
   export const hitFeatures = [
     {
-      icon: "/howItWorks/Frame-0.png",
-      title: "Connect",
-      des: "Register and qualify for funding in less than 5 mins. Connect revenue and marketing platforms you already use.",
+      icon: "/howItWorks/message.gif",
+      title: "Identify Your Need 💡",
+      des: "Choose Your Focus: Marketing or Recruitment? Tell us what service you need through the form available on every page. Select the sector that matches your challenge, and we’ll take it from there.",
     },
     {
-      icon: "/howItWorks/Frame-1.png",
-      title: "Get Funded",
-      des: "Get a term sheet with upto 3 funding offers. Select option that best suits and complete onboarding to receive funds in days",
+      icon: "/howItWorks/rfp.gif",
+      title: "Fill Out the Form 📝",
+      des: "Let’s Get to Know You: Describe your business with a noun and adjective (e.g., “Innovative Startup”), provide your business name, and briefly explain the issue you want to solve. This helps us tailor the best solution.",
     },
     {
-      icon: "/howItWorks/Frame-2.png",
-      title: "Support Growth",
-      des: "Access curated feed of actionable insights and on demand execution expertise. Auto qualify for follow on funding as you grow",
+      icon: "/howItWorks/solution.gif",
+      title: "We’ll Craft Your Solution 🚀",
+      des: "Actionable Strategy: Once you submit the form, our experts review your input and get in touch quickly. Whether you need marketing strategies or talent acquisition, we provide a plan designed to address your needs directly.",
     },
   ];
   
   export const whoWeInvest = [
     {
-      title: "Digital Business Model",
-      des: "Digital business model e.g. SaaS, subscription, D2C, apps",
+      title: "Industries We Support",
+      des: "At 9Dots Agency, we specialize in tailored marketing and recruitment solutions for industries like technology, healthcare, finance, and retail.",
     },
     {
-      title: "Revenue Generating",
-      des: "Revenue generating for 6 months, > $1k in monthly recurring revenue",
+      title: "Sectors We Empower",
+      des: "We unlock potential and foster growth for startups and established enterprises across sectors such as e-commerce, hospitality, education, and manufacturing.",
     },
     {
-      title: "Support Growth",
-      des: "Industry expertise: Fintech, Health, Deep tech, B2B software",
+      title: "Our Focus Areas",
+      des: "Our commitment to impactful solutions is reflected in our focus on digital marketing, talent acquisition, non-profit organizations, and professional services.",
     },
     {
-      title: "International Expansion",
-      des: "Registered in Australia and Singapore (initially) with appetite for international expansion",
+      title: "Who We Partner With",
+      des: "We build strong partnerships with diverse organizations, including tech innovators, creative agencies, healthcare providers, and educational institutions, to enhance brand presence and attract top talent.",
     },
   ];
   

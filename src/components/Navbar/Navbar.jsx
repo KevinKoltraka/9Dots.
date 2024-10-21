@@ -36,7 +36,7 @@ const Navbar = () => {
                             <span>About us</span>
                         </Link>
                         <Link to="hiw-wrapper" spy smooth offset={100} >
-                            <span>How it works</span>
+                            <span>The 9Dots Way</span>
                         </Link>
                         <Link to="wwi-wrapper" spy smooth >
                             <span>Who we invest in</span>
@@ -46,7 +46,7 @@ const Navbar = () => {
                         </Link>
                     </div>
                     <div className="fund-button">
-                        Get Funded
+                        Start your journey
                     </div>
                 </div>
             </div>
@@ -55,7 +55,7 @@ const Navbar = () => {
         {/* mobile version */}
         <div className="nm-container">
             {/* logo */}
-            <span>COTEK TECH</span>
+            <span>9Dots Agency</span>
 
             {/* menu icon */}
             {
@@ -74,12 +74,12 @@ const Navbar = () => {
             <div className="nm-menu"
             style={{transform: mobileMenuOpened && "translateX(0%)"}}
             >
-                <span>What we do</span>
+                <span>About us</span>
                 <span>How it works</span>
                 <span>Who we invest in</span>
                 <span>Testimonials</span>
                 <div className="m-funded-button">
-                    Get Funded
+                    Start your journey
                 </div>
             </div>
 
