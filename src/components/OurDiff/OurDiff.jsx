@@ -17,7 +17,7 @@ const OurDiff = () => {
                     initial="offscreen"
                     whileInView={"onscreen"}
                     className='tag'>
-                        Our Difference
+                        Uniting Job Seekers and Employers for Mutual Growth
                     </motion.span>
                     <motion.span 
                     variants={titleVariants}
@@ -25,16 +25,15 @@ const OurDiff = () => {
                     whileInView={"onscreen"}
                     className='title
                     '>
-                        Fair capital, hassle free
+                        Connecting Talent with Opportunity
                     </motion.span>
                     <motion.span 
                     variants={desVariants}
                     initial="offscreen"
                     whileInView={"onscreen"}
                     className='text'>
-                        Our mission is to level the playing field for early stage growth capital
-                        <br /> We provide capital that is unbiased, flexible and non
-                        dilutive with the execution support to accelerate value creation.
+                        Our mission is to connect job seekers with their dream opportunities and empower employers to find the perfect talent.
+                        <br /> We provide a bridge between job seekers and employers, facilitating connections that lead to successful careers and thriving teams.
                     </motion.span>
                 </div>
                 {/* features */}

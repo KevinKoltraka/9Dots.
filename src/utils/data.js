@@ -61,18 +61,18 @@ export const HeroData = [
   export const ourDiffFeatures = [
     {
       icon: "/OurDiff/Frame-0.png",
-      title: "Data Driven",
-      des: "Our mission is to level the playing field for early stage growth capital. We provide capital that is unbiased, flexible and non dilutive with the execution support to accelerate value creation",
+      title: "Job Seekers",
+      des: "Our mission is to empower job seekers by connecting them with fulfilling career opportunities that align with their skills and aspirations.",
     },
     {
       icon: "/OurDiff/Frame-1.png",
-      title: "flexible funding",
-      des: "Funding that flexes as revenue grows with transparent costs and does not require dilution, personal guarantees or pitch decks",
+      title: "Career Matchmaking",
+      des: "Career Matchmaking: Uniting Job Seekers and Employers for Mutual Success.",
     },
     {
       icon: "/OurDiff/Frame-2.png",
-      title: "value accelerating",
-      des: "On demand expertise to supercharge growth in areas that are hard to access for early stage founders",
+      title: "Employers",
+      des: "Empowering employers to find and connect with top talent, ensuring their teams are built for success and growth.",
     },
   ];
   
