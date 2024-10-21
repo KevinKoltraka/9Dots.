@@ -26,14 +26,14 @@ const Navbar = () => {
             <div className="n-container">
                 {/* left side */}
                 <div className="n-logo">
-                    <span>COTEK TECH</span>
+                    <span>9Dots. Agency</span>
                 </div>
 
                 {/* right side */}
                 <div className="n-right">
                     <div className="n-menu">
                         <Link to="wwd-wrapper" spy={true} smooth={true} >
-                            <span>What we do</span>
+                            <span>About us</span>
                         </Link>
                         <Link to="hiw-wrapper" spy smooth offset={100} >
                             <span>How it works</span>

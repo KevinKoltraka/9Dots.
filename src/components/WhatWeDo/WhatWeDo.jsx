@@ -19,7 +19,7 @@ const WhatWeDo = () => {
                     whileInView={"onscreen"}
                     variants={tagVariants}
                     className='tag'
-                    >What we do</motion.span>
+                    >About us</motion.span>
                     <motion.span
                     initial="offscreen"
                     whileInView={"onscreen"}
@@ -27,15 +27,14 @@ const WhatWeDo = () => {
                     className='title'
                     >
                         {" "}
-                        Empowering founders with Non Dilutive Capital and execution 
-                        expertise
+                        Experience tailored solutions with 9Dots Agency, where our marketing and recruitment services address your unique challenges—connect with us through our quick form to get started!
                     </motion.span>
                     <motion.span
                     initial="offscreen"
                     whileInView={"onscreen"}
                     variants={desVariants}
                     className='des'
-                    >Here is how we can eveluate</motion.span>
+                    >Start Your Journey with Us!</motion.span>
                 </div>
 
                 {/* two blocks */}
@@ -47,15 +46,14 @@ const WhatWeDo = () => {
                         initial="offscreen"
                         whileInView={"onscreen"}
                         className='sec-title'>
-                            Blue Advances
+                            Marketing
                         </motion.span>
                         <motion.span 
                         variants={desVariants}
                         initial="offscreen"
                         whileInView={"onscreen"}
                         className='text'>
-                            Fund recurring growth expenses e.g. customer acquisition,
-                            inventory
+                            Transform your online presence with our comprehensive digital marketing services, including SEO, PPC, social media strategies, and more.
                         </motion.span>
                         <div className="block-features">
                             {
@@ -79,14 +77,14 @@ const WhatWeDo = () => {
                         initial="offscreen"
                         whileInView={"onscreen"}
                         className='sec-title'>
-                            Blue Seed
+                            Recruitment
                         </motion.span>
                         <motion.span 
                         variants={desVariants}
                         initial="offscreen"
                         whileInView={"onscreen"}
                         className='text'>
-                            Fund one-offs to scale e.g. product, hiring. 
+                            Elevate your talent acquisition with our specialized services in executive search, recruitment support, sourcing, and comprehensive candidate evaluation. 
                         </motion.span>
                         <div className="block-features">
                             {
@@ -115,22 +113,20 @@ const WhatWeDo = () => {
                     {/* left side */}
                     <div>
                         <span className="sec-title">
-                            Blue Growth Support
+                            Job Seekers & Employers
                         </span>
                         <span className="des">
-                            Data Insights and full stack expertise to supercharge growth
+                        9Dots Agency connects job seekers with their ideal opportunities while helping employers attract top talent, creating a win-win for both sides of the hiring process.
                         </span>
                     </div>
 
                     {/* right side */}
                     <div>
                         <span className='text'>
-                            Actionable data insights by connecting revenue, marketing and social media platforms
+                        •At 9Dots Agency, we empower job seekers to find their ideal roles. With personalized support and expert guidance, we connect you with opportunities that match your skills and aspirations. Join us to unlock your potential and take the next step in your career!
                         </span>
                         <span className='text'>
-                            On demand execution expertise at cost or revenue share across proposition design
-                            engineering marketing analytics, partnerships, brand, intellectual property, market expansion,
-                            talent management.
+                        •Attract top talent with 9Dots Agency’s tailored recruitment solutions. We understand your business needs and work diligently to find candidates who not only fit the role but also align with your company culture. Partner with us to streamline your hiring process and build a high-performing team!
                         </span>
                     </div>
                 </motion.div>

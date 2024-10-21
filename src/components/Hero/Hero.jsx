@@ -91,13 +91,13 @@ const Hero = () => {
                 {/* right Side */}
                 <div className="h-right">
                     <div className="h-title">
-                        <span>Redefine How</span>
-                        <span>You Grow your</span>
-                        <span>Digital Business</span>
+                        <span>Empowering Your</span>
+                        <span>Growth with</span>
+                        <span>Marketing and Recruitment Solutions.</span>
                     </div>
 
                     <div className="h-description">
-                        Revenue based funding and execution support designed for early stage founders
+                    Transform your business with our expert services.
                     </div>
                     <EmailBox />
                 </div>

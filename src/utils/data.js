@@ -33,28 +33,28 @@ export const HeroData = [
   
   export const features = [
     {
-      icon: "/features/Frame-0.png",
-      title: "3x monthly revenue",
+      icon: "/features/content-marketing.gif",
+      title: "Digital Marketing",
     },
     {
-      icon: "/features/Frame-1.png",
-      title: "Flat fee of 6-12%",
+      icon: "/features/seo.gif",
+      title: "SEO (Search Engine Optimization)",
     },
     {
-      icon: "/features/Frame-2.png",
-      title: "Flexible repayments by revenue share",
+      icon: "/features/content-marketing1.gif",
+      title: "Content Marketing",
     },
     {
-      icon: "/features/Frame-3.png",
-      title: "3-4 years repayment",
+      icon: "/features/executive.png",
+      title: "Executive Search",
     },
     {
-      icon: "/features/Frame-4.png",
-      title: "$10-100k seed investment",
+      icon: "/features/talent.png",
+      title: "Talent Acquisition",
     },
     {
-      icon: "/features/Frame-5.png",
-      title: "2% of revenue up to 3X cap",
+      icon: "/features/rating.gif",
+      title: "Candidate Evaluation",
     },
   ];
   
