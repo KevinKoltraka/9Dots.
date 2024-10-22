@@ -116,26 +116,26 @@ export const HeroData = [
   export const testimonialsData = [
     {
       comment:
-        "SUPER HAPPY! Not only do you get to see the best seed and Early Stage companies but the exciting part is there’s a bunch of investors",
-      name: "Zach Lee",
+        "Working with 9Dots Agency was a game changer for us. Their tailored strategies significantly boosted our recruitment efforts and helped us find the right talent quickly!",
+      name: "Anonymus",
       profession: "QA specialist, Matrix architect",
     },
     {
       comment:
-        "I have been working with Cotek on our fundraising strategies. They understands the in depth strategies of Venture Capital and early stage fund raising/company",
-      name: "Cheryl R. Weiss",
+        "The marketing solutions provided by 9Dots Agency transformed our brand presence. Their expertise and dedication made all the difference in our outreach!",
+      name: "Anonymus",
       profession: "Founder, Dubrow Cafeteria",
     },
     {
       comment:
-        "Another masterpiece really digging into the art of venture funds, portfolio construction and deal mechanics! Loved it - I can say without hesitation that it is incredibly valuable for anyone who is investing",
-      name: "Vicky R. Lane",
+        "Thanks to 9Dots, our hiring process is now streamlined and efficient. Their insights and support have been invaluable in attracting top candidates.",
+      name: "Anonymus",
       profession: "Directork, Lafayette Radio",
     },
     {
       comment:
-        "BlueVenture is the premier setting for entrepreneurs and investors alike to exchange ideas, and network. As an entrepreneur, I can rely on the BlueVenture to bring top caliber speakers, entrepreneurs and investors",
-      name: "Jennifer Dubois",
+        "The team at 9Dots Agency understands our unique challenges and delivers results that exceed our expectations. We're thrilled with the partnership!",
+      name: "Anonymus",
       profession: "Manager, China Coast",
     },
   ];

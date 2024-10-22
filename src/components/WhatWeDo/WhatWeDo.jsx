@@ -27,7 +27,7 @@ const WhatWeDo = () => {
                     className='title'
                     >
                         {" "}
-                        Experience tailored solutions with 9Dots Agency, where our marketing and recruitment services address your unique challenges—connect with us through our quick form to get started!
+                        Unlock personalized marketing and recruitment solutions with 9Dots Agency. Fill out our quick form to get started!
                     </motion.span>
                     <motion.span
                     initial="offscreen"

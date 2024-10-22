@@ -9,7 +9,7 @@ const Testimonials = () => {
             <div className="t-container">
                 <div className="t-head">
                     <span className='tag'>Testimonials</span>
-                    <span className='title'>Access capital that complements traditional funding options.</span>
+                    <span className='title'>Voices of Success, Powered by 9Dots</span>
                     <span className='des'>What people say about us</span>
                 </div>
             </div>
