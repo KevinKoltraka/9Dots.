@@ -36,13 +36,16 @@ const Navbar = () => {
                             <span>About us</span>
                         </Link>
                         <Link to="hiw-wrapper" spy smooth offset={100} >
-                            <span>The 9Dots Way</span>
+                            <span>Marketing</span>
                         </Link>
                         <Link to="wwi-wrapper" spy smooth >
-                            <span>Who we invest in</span>
+                            <span>Recruiting</span>
                         </Link>
-                        <Link to="t-wrapper" spy smooth offset={100} >
-                            <span>Testimonials</span>
+                        <Link to="wwi-wrapper" spy smooth >
+                            <span>Blog</span>
+                        </Link>
+                        <Link to="wwi-wrapper" spy smooth >
+                            <span>Portfolio</span>
                         </Link>
                     </div>
                     <div className="fund-button">
@@ -75,9 +78,10 @@ const Navbar = () => {
             style={{transform: mobileMenuOpened && "translateX(0%)"}}
             >
                 <span>About us</span>
-                <span>How it works</span>
-                <span>Who we invest in</span>
-                <span>Testimonials</span>
+                <span>Marketing</span>
+                <span>Recruiting</span>
+                <span>Blog</span>
+                <span>Portfolio</span>
                 <div className="m-funded-button">
                     Start your journey
                 </div>

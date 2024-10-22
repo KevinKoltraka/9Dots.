@@ -93,7 +93,6 @@ export const HeroData = [
       des: "Actionable Strategy: Once you submit the form, our experts review your input and get in touch quickly. Whether you need marketing strategies or talent acquisition, we provide a plan designed to address your needs directly.",
     },
   ];
-
   const FeatureList = () => {
     return (
         <div>
@@ -107,6 +106,7 @@ export const HeroData = [
         </div>
     );
 };
+
 
 export default FeatureList;
   
