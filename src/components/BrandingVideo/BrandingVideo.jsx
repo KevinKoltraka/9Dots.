@@ -14,7 +14,7 @@ const BrandingVideo = () => {
     const scale = useTransform(scrollYProgress, [0, 1], [.6, 1])
 
   return (
-    <div className="bv-container">
+    <div className="bv-container" style={{ backgroundColor: 'black' }}>
         <div className="container">
             <motion.video 
             ref={ref}

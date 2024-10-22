@@ -1,5 +1,6 @@
 .od-wrapper {
     padding-top: 12rem;
+    background-color: black;
 }
 
 .od-container {
@@ -32,7 +33,7 @@
 
 .od-feature {
     flex: 1;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     box-shadow: var(--shadow);
     display: flex;
     flex-direction: column;

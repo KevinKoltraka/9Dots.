@@ -6,7 +6,7 @@ import { containerVariants, tagVariants, titleVariants } from '@/src/utils/anima
 
 const WhoWeInvest = () => {
   return (
-    <div className="wwi-wrapper">
+    <div className="wwi-wrapper" style={{ backgroundColor: 'black' }}>
         <div className="container">
             <div className="wwi-container">
                 {/* left side */}

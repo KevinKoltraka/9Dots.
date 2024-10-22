@@ -1,6 +1,7 @@
 .wwd-wrapper {
     position: relative;
     /* padding-bottom: 10rem; */
+    background-color: #000;
 }
 
 .wwd-container {
@@ -48,6 +49,7 @@
 }
 
 .block-feature {
+    background-color: white;
     flex: 1;
     display: flex;
     flex-direction: column;

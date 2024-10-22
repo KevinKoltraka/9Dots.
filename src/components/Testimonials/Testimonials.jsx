@@ -4,7 +4,7 @@ import './Testimonials.css'
 
 const Testimonials = () => {
   return (
-    <div className="t-wrapper">
+    <div className="t-wrapper" style={{ backgroundColor: 'black' }}>
         <div className="container">
             <div className="t-container">
                 <div className="t-head">

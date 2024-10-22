@@ -1,5 +1,6 @@
 .t-wrapper .container {
     padding-top: 13rem;
+
 }
 
 .t-container{
@@ -30,6 +31,7 @@
 }
 
 .slick-dots {
+    background-color: aliceblue;
     bottom: 0px!important;
 }
 

@@ -77,9 +77,9 @@ export const HeroData = [
   ];
   
   export const hitFeatures = [
-    {
+    { 
       icon: "/howItWorks/message.gif",
-      title: "Identify Your Need 💡",
+      title: "Identify Your Need 💡",  
       des: "Choose Your Focus: Marketing or Recruitment? Tell us what service you need through the form available on every page. Select the sector that matches your challenge, and we’ll take it from there.",
     },
     {
@@ -93,6 +93,22 @@ export const HeroData = [
       des: "Actionable Strategy: Once you submit the form, our experts review your input and get in touch quickly. Whether you need marketing strategies or talent acquisition, we provide a plan designed to address your needs directly.",
     },
   ];
+
+  const FeatureList = () => {
+    return (
+        <div>
+            {hitFeatures.map((feature, index) => (
+                <div key={index} className="feature">
+                    <img src={feature.icon} alt={feature.title} />
+                    <h3 style={{ color: 'white' }}>{feature.title}</h3>
+                    <p>{feature.des}</p>
+                </div>
+            ))}
+        </div>
+    );
+};
+
+export default FeatureList;
   
   export const whoWeInvest = [
     {

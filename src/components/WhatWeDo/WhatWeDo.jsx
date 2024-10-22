@@ -33,6 +33,9 @@ const WhatWeDo = () => {
                     initial="offscreen"
                     whileInView={"onscreen"}
                     variants={desVariants}
+    
+
+
                     className='des'
                     >Start Your Journey with Us!</motion.span>
                 </div>
@@ -120,12 +123,12 @@ const WhatWeDo = () => {
                         </span>
                     </div>
 
-                    {/* right side */}
+                    {/* right side */}-
                     <div>
-                        <span className='text'>
+                        <span className='text' style={{ color: 'black' }}>
                         •Dual Expertise: Seamlessly integrated Marketing and Recruitment services to grow your brand and build your team, all in one place
                         </span>
-                        <span className='text'>
+                        <span className='text' style={{ color: 'black' }}>
                         •Tailored Solutions: Personalized strategies that address your unique challenges, ensuring impactful and measurable results
                         </span>
                     </div>
