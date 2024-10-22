@@ -29,58 +29,34 @@ const Footer = () => {
           <EmailBox />
           <hr />
           <div className="f-menu">
-            <motion.a 
-              href="https://wa.me/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              onMouseEnter={() => handleMouseEnter('whatsapp')}
-              onMouseLeave={handleMouseLeave}
-              whileHover={{ scale: 1.05, transition: { duration: 0.2, ease: "easeInOut" } }}
-            >
-              <span style={{ opacity: hovered === 'whatsapp' ? 0 : 1, transition: 'opacity 0.2s ease' }}>WhatsApp</span>
-              <span style={{ opacity: hovered === 'whatsapp' ? 1 : 0, transition: 'opacity 0.2s ease' }}>
-                <FaWhatsapp size={iconSize} />
-              </span>
-            </motion.a>
-            <motion.a 
-              href="https://www.instagram.com/your-username" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              onMouseEnter={() => handleMouseEnter('instagram')}
-              onMouseLeave={handleMouseLeave}
-              whileHover={{ scale: 1.05, transition: { duration: 0.2, ease: "easeInOut" } }}
-            >
-              <span style={{ opacity: hovered === 'instagram' ? 0 : 1, transition: 'opacity 0.2s ease' }}>Instagram</span>
-              <span style={{ opacity: hovered === 'instagram' ? 1 : 0, transition: 'opacity 0.2s ease' }}>
-                <FaInstagram size={iconSize} />
-              </span>
-            </motion.a>
-            <motion.a 
-              href="https://www.linkedin.com/in/your-profile" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              onMouseEnter={() => handleMouseEnter('linkedin')}
-              onMouseLeave={handleMouseLeave}
-              whileHover={{ scale: 1.05, transition: { duration: 0.2, ease: "easeInOut" } }}
-            >
-              <span style={{ opacity: hovered === 'linkedin' ? 0 : 1, transition: 'opacity 0.2s ease' }}>LinkedIn</span>
-              <span style={{ opacity: hovered === 'linkedin' ? 1 : 0, transition: 'opacity 0.2s ease' }}>
-                <FaLinkedin size={iconSize} />
-              </span>
-            </motion.a>
-            <motion.a 
-              href="https://www.tiktok.com/@your-username" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              onMouseEnter={() => handleMouseEnter('tiktok')}
-              onMouseLeave={handleMouseLeave}
-              whileHover={{ scale: 1.05, transition: { duration: 0.2, ease: "easeInOut" } }}
-            >
-              <span style={{ opacity: hovered === 'tiktok' ? 0 : 1, transition: 'opacity 0.2s ease' }}>TikTok</span>
-              <span style={{ opacity: hovered === 'tiktok' ? 1 : 0, transition: 'opacity 0.2s ease' }}>
-                <FaTiktok size={iconSize} />
-              </span>
-            </motion.a>
+            {['whatsapp', 'instagram', 'linkedin', 'tiktok'].map((platform) => {
+              const icons = {
+                whatsapp: <FaWhatsapp size={iconSize} />,
+                instagram: <FaInstagram size={iconSize} />,
+                linkedin: <FaLinkedin size={iconSize} />,
+                tiktok: <FaTiktok size={iconSize} />,
+              };
+
+              return (
+                <motion.a 
+                  key={platform}
+                  href={`https://${platform === 'whatsapp' ? 'wa.me/' : platform === 'instagram' ? 'www.instagram.com/your-username' : platform === 'linkedin' ? 'www.linkedin.com/in/your-profile' : 'www.tiktok.com/@your-username'}`} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  onMouseEnter={() => handleMouseEnter(platform)}
+                  onMouseLeave={handleMouseLeave}
+                  whileHover={{ scale: 1.05, transition: { duration: 0.2, ease: "easeInOut" } }}
+                  className="f-menu-item"
+                >
+                  <span style={{ opacity: hovered === platform ? 1 : 0, transition: 'opacity 0.2s ease' }}>
+                    {icons[platform]}
+                  </span>
+                  <span style={{ opacity: hovered === platform ? 0 : 1, transition: 'opacity 0.2s ease' }}>
+                    {platform.charAt(0).toUpperCase() + platform.slice(1)}
+                  </span>
+                </motion.a>
+              );
+            })}
           </div>
           <hr />
           <span className='text'>Made with love by 9Dots Agency</span>

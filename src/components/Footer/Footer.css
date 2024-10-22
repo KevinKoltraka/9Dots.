@@ -30,37 +30,48 @@
 
 .f-menu {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
+    justify-content: center; /* Center items horizontally */
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 10rem; /* Space between items */
 }
-
-.icon {
-    font-size: 1.5rem; /* Adjust as needed */
-}
-
 
 .f-menu a {
     color: aliceblue;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 100px;
+    display: flex; /* Change to flex */
+    flex-direction: column; /* Stack icon above text */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center content */
     text-decoration: none;
     transition: transform 0.2s ease;
-  }
-  
-  .f-menu a:hover {
+    width: 100px; /* Fixed width for uniformity */
+}
+
+.f-menu a:hover {
     transform: scale(1.05); /* Scale on hover */
-  }
-  
+}
+
 .f-menu span {
     color: white;
     text-transform: uppercase;
     font-size: 0.9rem;
     font-weight: bold;
+    opacity: 1; /* Ensure text is visible */
+    transition: opacity 0.2s ease; /* Smooth transition for text visibility */
 }
+
+/* Add additional styles for icon visibility */
+.f-menu a span:first-child {
+    opacity: 0; /* Hide icon by default */
+}
+
+.f-menu a:hover span:first-child {
+    opacity: 1; /* Show icon on hover */
+}
+
+.f-menu a:hover span:last-child {
+    opacity: 0; /* Hide text on hover */
+}
+
 
 @media (max-width: 990px) {
     .f-menu {
