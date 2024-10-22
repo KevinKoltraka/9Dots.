@@ -38,7 +38,7 @@
 }
 
 .wwi-feature .des {
-    color: #000;
+    color: #d716a8;
 }
 
 .wwi-feature .text {
@@ -50,7 +50,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    align-self: flex-end;
+    
 }
 
 .wwi-right img {

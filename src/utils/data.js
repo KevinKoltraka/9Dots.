@@ -157,20 +157,20 @@ export default FeatureList;
   
   export const whoWeInvest = [
     {
-      title: "Industries We Support",
-      des: "At 9Dots Agency, we specialize in tailored marketing and recruitment solutions for industries like technology, healthcare, finance, and retail.",
+      title: "•Executive Search🔍",
+      des: "Finding the right executive talent is essential for your organization's success. Our Executive Search services are tailored to identify and attract exceptional leaders who align with your company culture and strategic goals. With deep market insights and a comprehensive assessment process, we ensure that you connect with top-tier candidates who possess the vision and skills needed to drive growth. Partner with us to build a high-performing leadership team that will elevate your organization to new heights.",
     },
     {
-      title: "Sectors We Empower",
-      des: "We unlock potential and foster growth for startups and established enterprises across sectors such as e-commerce, hospitality, education, and manufacturing.",
+      title: "Recruitment Support💼",
+      des: "Our Recruitment Support services streamline your hiring process, making it easier to find and retain top talent. We assist with everything from developing clear job descriptions and sourcing candidates to screening and interview coordination. Our dedicated team ensures that you connect with qualified candidates efficiently, allowing you to focus on what matters most—growing your business. Partner with us to simplify your recruitment efforts and build a strong workforce.",
     },
     {
-      title: "Our Focus Areas",
-      des: "Our commitment to impactful solutions is reflected in our focus on digital marketing, talent acquisition, non-profit organizations, and professional services.",
+      title: "Sourcing🎯",
+      des: "Our Sourcing services focus on identifying and attracting top talent tailored to your organization's specific needs. Utilizing a variety of innovative strategies and tools, we tap into diverse talent pools, including active job seekers and passive candidates, ensuring a comprehensive approach to recruitment. By leveraging our extensive network and market insights, we connect you with qualified individuals who not only possess the right skills but also align with your company culture. Let us help you build a strong talent pipeline that drives your organization's success.",
     },
     {
-      title: "Who We Partner With",
-      des: "We build strong partnerships with diverse organizations, including tech innovators, creative agencies, healthcare providers, and educational institutions, to enhance brand presence and attract top talent.",
+      title: "Candidates Evaluation📋",
+      des: "Our Candidates Evaluation process ensures that you select the best talent for your organization. We employ a comprehensive assessment approach that includes skills testing, behavioral interviews, and reference checks to evaluate candidates thoroughly. By examining both technical competencies and cultural fit, we help you identify individuals who not only excel in their roles but also align with your company values. Trust us to provide you with the insights needed to make informed hiring decisions and build a high-performing team.",
     },
   ];
   
