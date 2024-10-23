@@ -92,6 +92,78 @@ export const HeroData = [
     {
       icon: "/OurDiff/Asset 28.png",
     },
+    {
+      icon: "/OurDiff/Asset 28.png",
+    },
+    {
+      icon: "/OurDiff/Asset 28.png",
+    },
+    {
+      icon: "/OurDiff/Asset 28.png",
+    },
+    {
+      icon: "/OurDiff/Asset 28.png",
+    },
+    {
+      icon: "/OurDiff/Asset 28.png",
+    },
+    {
+      icon: "/OurDiff/Asset 28.png",
+    },
+    {
+      icon: "/OurDiff/Asset 28.png",
+    },
+    {
+      icon: "/OurDiff/Asset 28.png",
+    },
+    {
+      icon: "/OurDiff/Asset 28.png",
+    },
+    {
+      icon: "/OurDiff/Asset 28.png",
+    },
+    {
+      icon: "/OurDiff/Asset 28.png",
+    },
+    {
+      icon: "/OurDiff/Asset 28.png",
+    },
+    {
+      icon: "/OurDiff/Asset 28.png",
+    },
+    {
+      icon: "/OurDiff/Asset 28.png",
+    },
+    {
+      icon: "/OurDiff/Asset 28.png",
+    },
+    {
+      icon: "/OurDiff/Asset 28.png",
+    },
+    {
+      icon: "/OurDiff/Asset 28.png",
+    },
+    {
+      icon: "/OurDiff/Asset 28.png",
+    },
+    {
+      icon: "/OurDiff/Asset 28.png",
+    },
+    {
+      icon: "/OurDiff/Asset 28.png",
+    },
+    {
+      icon: "/OurDiff/Asset 28.png",
+    },
+    {
+      icon: "/OurDiff/Asset 28.png",
+    },
+    {
+      icon: "/OurDiff/Asset 28.png",
+    },
+    {
+      icon: "/OurDiff/Asset 28.png",
+    },
     
   ];
   
