@@ -84,85 +84,87 @@ export const HeroData = [
       icon: "/OurDiff/Asset 28.png",
     },
     {
-      icon: "/OurDiff/Asset 28.png",
+      icon: "/OurDiff/Asset 27.png",
     },
     {
-      icon: "/OurDiff/Asset 28.png",
+      icon: "/OurDiff/Asset 26.png",
     },
     {
-      icon: "/OurDiff/Asset 28.png",
+      icon: "/OurDiff/Asset 25.png",
     },
     {
-      icon: "/OurDiff/Asset 28.png",
+      icon: "/OurDiff/Asset 24.png",
     },
     {
-      icon: "/OurDiff/Asset 28.png",
+      icon: "/OurDiff/Asset 23.png",
     },
     {
-      icon: "/OurDiff/Asset 28.png",
+      icon: "/OurDiff/Asset 22.png",
     },
     {
-      icon: "/OurDiff/Asset 28.png",
+      icon: "/OurDiff/Asset 21.png",
     },
     {
-      icon: "/OurDiff/Asset 28.png",
+      icon: "/OurDiff/Asset 20.png",
     },
     {
-      icon: "/OurDiff/Asset 28.png",
+      icon: "/OurDiff/Asset 19.png",
     },
     {
-      icon: "/OurDiff/Asset 28.png",
+      icon: "/OurDiff/Asset 18.png",
     },
     {
-      icon: "/OurDiff/Asset 28.png",
+      icon: "/OurDiff/Asset 17.png",
     },
     {
-      icon: "/OurDiff/Asset 28.png",
+      icon: "/OurDiff/Asset 16.png",
     },
     {
-      icon: "/OurDiff/Asset 28.png",
+      icon: "/OurDiff/Asset 15.png",
+    },
+  ];
+    export const ourDiffAttributes = [
+    {
+      icon: "/OurDiff/Asset 14.png",
     },
     {
-      icon: "/OurDiff/Asset 28.png",
+      icon: "/OurDiff/Asset 13.png",
     },
     {
-      icon: "/OurDiff/Asset 28.png",
+      icon: "/OurDiff/Asset 12.png",
     },
     {
-      icon: "/OurDiff/Asset 28.png",
+      icon: "/OurDiff/Asset 11.png",
     },
     {
-      icon: "/OurDiff/Asset 28.png",
+      icon: "/OurDiff/Asset 10.png",
     },
     {
-      icon: "/OurDiff/Asset 28.png",
+      icon: "/OurDiff/Asset 9.png",
     },
     {
-      icon: "/OurDiff/Asset 28.png",
+      icon: "/OurDiff/Asset 8.png",
     },
     {
-      icon: "/OurDiff/Asset 28.png",
+      icon: "/OurDiff/Asset 7.png",
     },
     {
-      icon: "/OurDiff/Asset 28.png",
+      icon: "/OurDiff/Asset 6.png",
     },
     {
-      icon: "/OurDiff/Asset 28.png",
+      icon: "/OurDiff/Asset 5.png",
     },
     {
-      icon: "/OurDiff/Asset 28.png",
+      icon: "/OurDiff/Asset 4.png",
     },
     {
-      icon: "/OurDiff/Asset 28.png",
+      icon: "/OurDiff/Asset 3.png",
     },
     {
-      icon: "/OurDiff/Asset 28.png",
+      icon: "/OurDiff/Asset 2.png",
     },
     {
-      icon: "/OurDiff/Asset 28.png",
-    },
-    {
-      icon: "/OurDiff/Asset 28.png",
+      icon: "/OurDiff/Asset 1.png",
     },
     
   ];

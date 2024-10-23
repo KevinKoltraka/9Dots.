@@ -1,11 +1,12 @@
 import React from 'react'
 import './OurDiff.css'
-import { ourDiffFeatures } from '@/src/utils/data'
+import { ourDiffFeatures, ourDiffAttributes } from '@/src/utils/data'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { containerVariants, desVariants, tagVariants, titleVariants } from '@/src/utils/animation'
 
 const OurDiff = () => {
+
   return (
     <div className="od-wrapper">
         <div className="container">
@@ -32,8 +33,8 @@ const OurDiff = () => {
                     initial="offscreen"
                     whileInView={"onscreen"}
                     className='text'>
-                        "United by our shared goals, we leverage our diverse strengths to create impactful solutions.
-                        <br /> Together, we turn challenges into opportunities, driving success for all."
+                        United by our shared goals, we leverage our diverse strengths to create impactful solutions.
+                        <br /> Together, we turn challenges into opportunities, driving success for all.
                     </motion.span>
                 </div>
                 {/* features */}
@@ -45,6 +46,22 @@ const OurDiff = () => {
                             initial="offscreen"
                             whileInView="onscreen"
                             key={i} className='od-feature'>
+                                <Image src={feature.icon} alt="feature" width={128} height={128} />
+                                <span className='sec-title'>{feature.title}</span>
+                                <span className='text'>{feature.des}</span>
+                            </motion.div>
+                        ))
+                    }
+                </div>
+                {/* features */}
+                <div className="od-attributes">
+                    {
+                        ourDiffAttributes.map((feature, i)=> (
+                            <motion.div 
+                            variants={containerVariants((i + 1) * 0.1)}
+                            initial="offscreen"
+                            whileInView="onscreen"
+                            key={i} className='od-attribute'>
                                 <Image src={feature.icon} alt="feature" width={128} height={128} />
                                 <span className='sec-title'>{feature.title}</span>
                                 <span className='text'>{feature.des}</span>

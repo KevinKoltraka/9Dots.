@@ -9,16 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
+    "cropperjs": "^1.6.2",
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.16",
     "framer-motion": "^10.18.0",
+    "gsap": "^3.12.5",
     "next": "^15.0.0",
     "react": "^18.2.0",
+    "react-animate-on-scroll": "^2.1.9",
+    "react-cropper": "^2.3.3",
     "react-dom": "^18.2.0",
     "react-easy-crop": "^5.1.0",
     "react-icons": "^4.12.0",
-    "react-image-editor": "^0.0.1",
+    "react-router-dom": "^6.27.0",
     "react-scroll": "^1.8.9",
     "react-slick": "^0.29.0"
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "style-loader": "^4.0.0"
   }
 }
