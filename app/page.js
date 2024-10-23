@@ -4,11 +4,11 @@ import Navbar from '@/src/components/Navbar/Navbar';
 import './page.css'
 import Hero from '@/src/components/Hero/Hero';
 import BrandingVideo from '@/src/components/BrandingVideo/BrandingVideo';
-import WhatWeDo from '@/src/components/WhatWeDo/WhatWeDo';
-import OurDiff from '@/src/components/OurDiff/OurDiff';
+import WhatWeDo from '@/src/components/AboutUs/AboutUs';
+import OurDiff from '@/src/components/Our associates/OurAssociates';
 import { motion, useAnimation } from 'framer-motion';
-import HowItWorks from '@/src/components/HowItWorks/HowItWorks';
-import WhoWeInvest from '@/src/components/WhoWeInvest/WhoWeInvest';
+import HowItWorks from '@/src/components/Marketing/Marketing';
+import WhoWeInvest from '@/src/components/Recruiting/Recruiting';
 import Testimonials from '@/src/components/Testimonials/Testimonials';
 import Footer from '@/src/components/Footer/Footer';
 

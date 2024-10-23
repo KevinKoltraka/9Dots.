@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react'
-import './WhatWeDo.css'
+import './AboutUs.css'
 import { features } from '@/src/utils/data'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
@@ -89,7 +89,7 @@ const WhatWeDo = () => {
                             initial="offscreen"
                             whileInView={"onscreen"}
                             className='text'>
-                            At the core of the mission of 9Dots Agency lies the empowerment of businesses to achieve measurable success through personalized and innovative marketing solutions. Leveraging the combined expertise of 10 dedicated professionals, 9Dots Agency creates strategies customized to match each customer's unique market. Under the direction of Georgina Maksuti, with more than 8 years of experience in digital marketing, 9Dots aims to be a catalyst for transformation, driving growth and elevating brands through the most advanced digital tools and approaches. The agency is driven by a passion to help businesses go beyond borders and lead their marketing to a new level.
+                            At the core of the mission of 9Dots Agency lies the empowerment of businesses to achieve measurable success through personalized and innovative marketing solutions. Leveraging the combined expertise of 10 dedicated professionals, 9Dots Agency creates strategies customized to match each customers unique market. Under the direction of Georgina Maksuti, with more than 8 years of experience in digital marketing, 9Dots aims to be a catalyst for transformation, driving growth and elevating brands through the most advanced digital tools and approaches. The agency is driven by a passion to help businesses go beyond borders and lead their marketing to a new level.
                         </motion.span>
                         <div className="block-features">
                             {
@@ -121,7 +121,7 @@ const WhatWeDo = () => {
                             initial="offscreen"
                             whileInView={"onscreen"}
                             className='text'>
-                            At 9Dots Agency, we believe that every brand's success starts with a strong foundation and a strategic, personalized approach. We develop marketing solutions that not only align with our clients' goals but also exceed them by employing global best practices and the most advanced technologies. Each project we undertake is a collaborative effort, meticulously focused on data, creativity, and innovation, ensuring that every campaign delivers a lasting impact.
+                            At 9Dots Agency, we believe that every brands success starts with a strong foundation and a strategic, personalized approach. We develop marketing solutions that not only align with our clients goals but also exceed them by employing global best practices and the most advanced technologies. Each project we undertake is a collaborative effort, meticulously focused on data, creativity, and innovation, ensuring that every campaign delivers a lasting impact.
 
                             Our diverse team of experts spans various fields, guaranteeing that every aspect of your digital presence benefits from our comprehensive expertise. From strategic planning to execution, we work closely with you to craft tailored solutions that resonate with your target audience.
 

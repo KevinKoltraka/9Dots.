@@ -1,5 +1,5 @@
 import React from 'react'
-import './OurDiff.css'
+import './OurAssociates.css'
 import { ourDiffFeatures, ourDiffAttributes } from '@/src/utils/data'
 import Image from 'next/image'
 import { motion } from 'framer-motion'

@@ -45,8 +45,8 @@
   padding: 2rem;
   border-radius: 1rem;
   margin: 20px;
-  width: 200px;
-  height: 150px;
+  width: 120px;
+  height: auto;
 }
 
 /* Hide scrollbar */
@@ -86,8 +86,8 @@
   padding: 2rem;
   border-radius: 1rem;
   margin: 20px;
-  width: 200px;
-  height: 150px;
+  width: 120px;
+  height: auto;
 }
 
 @keyframes scroll {

@@ -1,5 +1,5 @@
 import React from 'react'
-import './HowItWorks.css'
+import './Marketing.css'
 import { hitFeatures } from '@/src/utils/data'
 import Image from 'next/image'
 import {motion} from 'framer-motion'

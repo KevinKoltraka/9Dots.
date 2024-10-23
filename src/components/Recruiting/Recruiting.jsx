@@ -1,5 +1,5 @@
 import React from 'react';
-import './WhoWeInvest.css';
+import './Recruiting.css';
 import { whoWeInvest } from '@/src/utils/data';
 import { motion } from 'framer-motion';
 import { containerVariants, tagVariants, titleVariants } from '@/src/utils/animation';
