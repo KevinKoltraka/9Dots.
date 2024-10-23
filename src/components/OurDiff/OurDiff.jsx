@@ -17,7 +17,7 @@ const OurDiff = () => {
                     initial="offscreen"
                     whileInView={"onscreen"}
                     className='tag'>
-                        Uniting Job Seekers and Employers for Mutual Growth
+                        Our associates
                     </motion.span>
                     <motion.span 
                     variants={titleVariants}
@@ -25,15 +25,15 @@ const OurDiff = () => {
                     whileInView={"onscreen"}
                     className='title
                     '>
-                        Connecting Talent with Opportunity
+                        Collaborate, Innovate, Achieve
                     </motion.span>
                     <motion.span 
                     variants={desVariants}
                     initial="offscreen"
                     whileInView={"onscreen"}
                     className='text'>
-                        Our mission is to connect job seekers with their dream opportunities and empower employers to find the perfect talent.
-                        <br /> We provide a bridge between job seekers and employers, facilitating connections that lead to successful careers and thriving teams.
+                        "United by our shared goals, we leverage our diverse strengths to create impactful solutions.
+                        <br /> Together, we turn challenges into opportunities, driving success for all."
                     </motion.span>
                 </div>
                 {/* features */}

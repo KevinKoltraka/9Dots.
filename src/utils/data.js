@@ -33,47 +33,61 @@ export const HeroData = [
   
   export const features = [
     {
-      icon: "/features/content-marketing.gif",
-      title: "Digital Marketing",
+      icon: "/features/world-creativity-and-innovation-day.gif",
+      title: "Innovation",
     },
     {
-      icon: "/features/seo.gif",
-      title: "SEO (Search Engine Optimization)",
+      icon: "/features/global.gif",
+      title: "Empowerment",
     },
     {
-      icon: "/features/content-marketing1.gif",
-      title: "Content Marketing",
+      icon: "/features/business-continuity.png",
+      title: "Sustainability",
     },
     {
-      icon: "/features/executive.png",
-      title: "Executive Search",
+      icon: "/features/impact.png",
+      title: "Influence",
     },
     {
-      icon: "/features/talent.png",
-      title: "Talent Acquisition",
+      icon: "/features/deal.png",
+      title: "Collaboration",
     },
     {
-      icon: "/features/rating.gif",
-      title: "Candidate Evaluation",
+      icon: "/features/partners.png",
+      title: "Community",
+    },
+    {
+      icon: "/features/target-audience.png",
+      title: "Personalized Marketing",
+    },
+    {
+      icon: "/features/customer-experience.gif",
+      title: "Expertise",
+    },
+    {
+      icon: "/features/sustainability.png",
+      title: "Sustainable Growth",
     },
   ];
   
   export const ourDiffFeatures = [
     {
-      icon: "/OurDiff/job-search.gif",
-      title: "Job Seekers",
-      des: "Our mission is to empower job seekers by connecting them with fulfilling career opportunities that align with their skills and aspirations.",
+      icon: "/OurDiff/Asset 31.png",
+      title: "",
     },
     {
-      icon: "/OurDiff/career-advancement.gif",
-      title: "Career Matchmaking",
-      des: "Career Matchmaking: Uniting Job Seekers and Employers for Mutual Success.",
+      icon: "/OurDiff/Asset 30.png",
+      title: "",
     },
     {
-      icon: "/OurDiff/employment.gif",
-      title: "Employers",
-      des: "Empowering employers to find and connect with top talent, ensuring their teams are built for success and growth.",
+      icon: "/OurDiff/Asset 29.png",
+      title: "",
     },
+    {
+      icon: "/OurDiff/Asset 28.png",
+      title: "",
+    },
+    
   ];
   
   export const hitFeatures = [
