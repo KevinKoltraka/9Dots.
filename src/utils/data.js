@@ -73,19 +73,24 @@ export const HeroData = [
   export const ourDiffFeatures = [
     {
       icon: "/OurDiff/Asset 31.png",
-      title: "",
     },
     {
       icon: "/OurDiff/Asset 30.png",
-      title: "",
     },
     {
       icon: "/OurDiff/Asset 29.png",
-      title: "",
     },
     {
       icon: "/OurDiff/Asset 28.png",
-      title: "",
+    },
+    {
+      icon: "/OurDiff/Asset 28.png",
+    },
+    {
+      icon: "/OurDiff/Asset 28.png",
+    },
+    {
+      icon: "/OurDiff/Asset 28.png",
     },
     
   ];
