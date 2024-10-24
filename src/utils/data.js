@@ -234,6 +234,7 @@ export const HeroData = [
       des: "Online Marketplace Marketing focuses on promoting your products effectively across various online platforms such as Amazon, eBay, Etsy, and others. Our strategies are designed to enhance your visibility and increase sales by leveraging the unique features of each marketplace. We optimize product listings with relevant keywords, high-quality images, and compelling descriptions to attract potential buyers. Additionally, we implement targeted advertising campaigns and utilize promotional tools available on these platforms to boost your products' reach. By analyzing market trends and customer behavior, we tailor our approach to meet the specific needs of your target audience, ensuring that your brand stands out in a competitive landscape. Let us help you maximize your presence and drive sales in the ever-evolving world of online marketplaces.",
     },
   ];
+
   const FeatureList = () => {
     return (
         <div>
@@ -246,9 +247,7 @@ export const HeroData = [
             ))}
         </div>
     );
-};
-
-
+}
 export default FeatureList;
   
   export const whoWeInvest = [

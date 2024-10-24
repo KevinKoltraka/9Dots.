@@ -1,61 +1,50 @@
-import React from 'react'
-import './EmailBox.css'
-import {LuMail} from 'react-icons/lu'
-import {motion} from 'framer-motion'
-import { containerVariants } from '@/src/utils/animation'
+import React from 'react';
+import './EmailBox.css';
+import { LuMail } from 'react-icons/lu';
+import { motion } from 'framer-motion';
+import { containerVariants } from '@/src/utils/animation';
 
 const EmailBox = () => {
+  const transition = { type: "easeOut", duration: 1 };
+
   return (
-    <motion.div 
-    initial={{
-      width: ".5rem",
-      borderRadius: "100%"
-    }}
-    whileInView={{
-      width: "70%",
-      borderRadius: "999px",
-      transition: {
-        type: "easeOut",
-        duration: 1,
-      },
-    }}
-    className="emailBox">
-        {/* icon */}
-        <motion.div
+    <motion.div
+      initial={{ width: "0.5rem", borderRadius: "100%" }}
+      whileInView={{ width: "70%", borderRadius: "999px", transition }}
+      className="emailBox"
+    >
+      {/* Icon */}
+      <motion.div
         variants={containerVariants(0.6)}
         initial="offscreen"
-        whileInView={"onscreen"}
-        viewport={{
-          once: true,
-        }}
-        >
-            <LuMail size={30} color='grey' />
-        </motion.div>
+        whileInView="onscreen"
+        viewport={{ once: true }}
+      >
+        <LuMail size={30} color="grey" />
+      </motion.div>
 
-        {/* input */}
-        <motion.input
+      {/* Input */}
+      <motion.input
         variants={containerVariants(0.7)}
         initial="offscreen"
-        whileInView={"onscreen"}
-        viewport={{
-          once: true,
-        }} 
-        type="email" 
-        placeholder='Enter Email' />
+        whileInView="onscreen"
+        viewport={{ once: true }}
+        type="email"
+        placeholder="Enter Email"
+      />
 
-        {/* get funded button */}
-        <motion.div 
+      {/* Get Funded Button */}
+      <motion.div
         variants={containerVariants(0.9)}
         initial="offscreen"
-        whileInView={"onscreen"}
-        viewport={{
-          once: true,
-        }}
-        className="getFunded">
-            👆
-        </motion.div>
+        whileInView="onscreen"
+        viewport={{ once: true }}
+        className="getFunded"
+      >
+        👆
+      </motion.div>
     </motion.div>
-  )
-}
+  );
+};
 
-export default EmailBox
+export default EmailBox;

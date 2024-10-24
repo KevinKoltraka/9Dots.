@@ -4,6 +4,20 @@ import EmailBox from '../EmailBox/EmailBox';
 import { FaWhatsapp, FaInstagram, FaLinkedin, FaTiktok } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
+const socialLinks = {
+  whatsapp: 'https://wa.me/',
+  instagram: 'https://www.instagram.com/your-username',
+  linkedin: 'https://www.linkedin.com/in/your-profile',
+  tiktok: 'https://www.tiktok.com/@your-username',
+};
+
+const icons = {
+  whatsapp: FaWhatsapp,
+  instagram: FaInstagram,
+  linkedin: FaLinkedin,
+  tiktok: FaTiktok,
+};
+
 const Footer = () => {
   const [hovered, setHovered] = useState(null);
   const timeoutRef = useRef(null);
@@ -14,12 +28,10 @@ const Footer = () => {
   };
 
   const handleMouseLeave = () => {
-    timeoutRef.current = setTimeout(() => {
-      setHovered(null);
-    }, 150);
+    timeoutRef.current = setTimeout(() => setHovered(null), 150);
   };
 
-  const iconSize = 24; // Set your desired icon size here
+  const iconSize = 24;
 
   return (
     <div className="f-wrapper">
@@ -29,29 +41,37 @@ const Footer = () => {
           <EmailBox />
           <hr />
           <div className="f-menu">
-            {['whatsapp', 'instagram', 'linkedin', 'tiktok'].map((platform) => {
-              const icons = {
-                whatsapp: <FaWhatsapp size={iconSize} />,
-                instagram: <FaInstagram size={iconSize} />,
-                linkedin: <FaLinkedin size={iconSize} />,
-                tiktok: <FaTiktok size={iconSize} />,
-              };
+            {Object.keys(socialLinks).map((platform) => {
+              const Icon = icons[platform];
 
               return (
-                <motion.a 
+                <motion.a
                   key={platform}
-                  href={`https://${platform === 'whatsapp' ? 'wa.me/' : platform === 'instagram' ? 'www.instagram.com/your-username' : platform === 'linkedin' ? 'www.linkedin.com/in/your-profile' : 'www.tiktok.com/@your-username'}`} 
-                  target="_blank" 
+                  href={socialLinks[platform]}
+                  target="_blank"
                   rel="noopener noreferrer"
                   onMouseEnter={() => handleMouseEnter(platform)}
                   onMouseLeave={handleMouseLeave}
-                  whileHover={{ scale: 1.05, transition: { duration: 0.2, ease: "easeInOut" } }}
+                  whileHover={{
+                    scale: 1.05,
+                    transition: { duration: 0.2, ease: 'easeInOut' },
+                  }}
                   className="f-menu-item"
                 >
-                  <span style={{ opacity: hovered === platform ? 1 : 0, transition: 'opacity 0.2s ease' }}>
-                    {icons[platform]}
+                  <span
+                    style={{
+                      opacity: hovered === platform ? 1 : 0,
+                      transition: 'opacity 0.2s ease',
+                    }}
+                  >
+                    <Icon size={iconSize} />
                   </span>
-                  <span style={{ opacity: hovered === platform ? 0 : 1, transition: 'opacity 0.2s ease' }}>
+                  <span
+                    style={{
+                      opacity: hovered === platform ? 0 : 1,
+                      transition: 'opacity 0.2s ease',
+                    }}
+                  >
                     {platform.charAt(0).toUpperCase() + platform.slice(1)}
                   </span>
                 </motion.a>
@@ -59,7 +79,7 @@ const Footer = () => {
             })}
           </div>
           <hr />
-          <span className='text'>Made with love by 9Dots Agency</span>
+          <span className="text">Made with love by 9Dots Agency</span>
         </div>
       </div>
     </div>

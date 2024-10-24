@@ -6,27 +6,30 @@ import { motion, useScroll, useTransform } from 'framer-motion'
 
 const BrandingVideo = () => {
     const ref = useRef(null);
-    const {scrollYProgress} = useScroll({
+    const { scrollYProgress } = useScroll({
         target: ref,
         offset: ["start end", "end end"]
-    })
+    });
 
-    const scale = useTransform(scrollYProgress, [0, 1], [.6, 1])
+    const scale = useTransform(scrollYProgress, [0, 1], [.6, 1]);
 
-  return (
-    <div className="bv-container" style={{ backgroundColor: 'black' }}>
-        <div className="container">
-            <motion.video 
-            ref={ref}
-            className='bv-video'
-            loop muted autoPlay controls=""
-            style={{scale}}
-            >
-                <source src='/video.mp4' type='video/mp4' />
-            </motion.video>
+    return (
+        <div className="bv-container" style={{ backgroundColor: 'black' }}>
+            <div className="container">
+                <motion.video 
+                    ref={ref}
+                    className='bv-video'
+                    loop 
+                    muted 
+                    autoPlay 
+                    controls 
+                    style={{ scale }} // Using scale transform for smoother animations
+                >
+                    <source src='/video.mp4' type='video/mp4' />
+                </motion.video>
+            </div>
         </div>
-    </div>
-  )
+    )
 }
 
-export default BrandingVideo
+export default BrandingVideo;
