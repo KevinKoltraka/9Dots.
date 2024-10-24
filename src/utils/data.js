@@ -72,102 +72,102 @@ export const HeroData = [
   
   export const ourDiffFeatures = [
     {
-      icon: "/OurDiff/Asset 31.png",
+      icon: "/OurDiff/Asset 125.png",
     },
     {
-      icon: "/OurDiff/Asset 30.png",
+      icon: "/OurDiff/Asset 126.png",
     },
     {
-      icon: "/OurDiff/Asset 29.png",
+      icon: "/OurDiff/Asset 127.png",
     },
     {
-      icon: "/OurDiff/Asset 28.png",
+      icon: "/OurDiff/Asset 128.png",
     },
     {
-      icon: "/OurDiff/Asset 27.png",
+      icon: "/OurDiff/Asset 129.png",
     },
     {
-      icon: "/OurDiff/Asset 26.png",
+      icon: "/OurDiff/Asset 130.png",
     },
     {
-      icon: "/OurDiff/Asset 25.png",
+      icon: "/OurDiff/Asset 131.png",
     },
     {
-      icon: "/OurDiff/Asset 24.png",
+      icon: "/OurDiff/Asset 132.png",
     },
     {
-      icon: "/OurDiff/Asset 23.png",
+      icon: "/OurDiff/Asset 133.png",
     },
     {
-      icon: "/OurDiff/Asset 22.png",
+      icon: "/OurDiff/Asset 134.png",
     },
     {
-      icon: "/OurDiff/Asset 21.png",
-    },
-    {
-      icon: "/OurDiff/Asset 20.png",
+      icon: "/OurDiff/Asset 135.png",
     },
   ];
 
     export const ourDiffAttributes = [
+      {
+        icon: "/OurDiff/Asset 136.png",
+      },
     {
-      icon: "/OurDiff/Asset 19.png",
+      icon: "/OurDiff/Asset 137.png",
     },
     {
-      icon: "/OurDiff/Asset 18.png",
+      icon: "/OurDiff/Asset 138.png",
     },
     {
-      icon: "/OurDiff/Asset 17.png",
+      icon: "/OurDiff/Asset 139.png",
     },
     {
-      icon: "/OurDiff/Asset 16.png",
+      icon: "/OurDiff/Asset 140.png",
     },
     {
-      icon: "/OurDiff/Asset 15.png",
+      icon: "/OurDiff/Asset 141.png",
     },
     {
-      icon: "/OurDiff/Asset 14.png",
+      icon: "/OurDiff/Asset 142.png",
     },
     {
-      icon: "/OurDiff/Asset 13.png",
+      icon: "/OurDiff/Asset 143.png",
     },
     {
-      icon: "/OurDiff/Asset 12.png",
+      icon: "/OurDiff/Asset 144.png",
     },
     {
-      icon: "/OurDiff/Asset 11.png",
-    },
-    {
-      icon: "/OurDiff/Asset 10.png",
+      icon: "/OurDiff/Asset 145.png",
     },
   ];
     export const ourDiffElements = [
+      {
+        icon: "/OurDiff/Asset 146.png",
+      },
     {
-      icon: "/OurDiff/Asset 9.png",
+      icon: "/OurDiff/Asset 147.png",
     },
     {
-      icon: "/OurDiff/Asset 8.png",
+      icon: "/OurDiff/Asset 148.png",
     },
     {
-      icon: "/OurDiff/Asset 7.png",
+      icon: "/OurDiff/Asset 149.png",
     },
     {
-      icon: "/OurDiff/Asset 6.png",
+      icon: "/OurDiff/Asset 150.png",
     },
     {
-      icon: "/OurDiff/Asset 5.png",
+      icon: "/OurDiff/Asset 151.png",
     },
     {
-      icon: "/OurDiff/Asset 4.png",
+      icon: "/OurDiff/Asset 152.png",
     },
     {
-      icon: "/OurDiff/Asset 3.png",
+      icon: "/OurDiff/Asset 153.png",
     },
     {
-      icon: "/OurDiff/Asset 2.png",
+      icon: "/OurDiff/Asset 154.png",
     },
     {
-      icon: "/OurDiff/Asset 1.png",
+      icon: "/OurDiff/Asset 155.png",
     },
     
   ];

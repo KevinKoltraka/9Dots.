@@ -45,7 +45,7 @@
   padding: 2rem;
   border-radius: 1rem;
   margin: 20px;
-  width: 120px;
+  width: 200px;
   height: auto;
 }
 
@@ -66,7 +66,7 @@
 .od-features,
 .od-attributes,
 .od-elements {
-  animation: scroll 10s linear infinite;
+  animation: scroll 16s linear infinite;
 }
 
 .od-attributes {
@@ -87,7 +87,7 @@
   padding: 2rem;
   border-radius: 1rem;
   margin: 20px;
-  width: 120px;
+  width: 200px;
   height: auto;
 }
 
@@ -123,16 +123,16 @@
   padding: 2rem;
   border-radius: 1rem;
   margin: 20px;
-  width: 120px;
+  width: 200px;
   height: auto;
 }
 
 @keyframes scroll {
   0% {
-    transform: translateX(0);
+    transform: translateX(65%);
   }
   100% {
-    transform: translateX(-150%); /* Adjust based on your content width */
+    transform: translateX(-200%); /* Adjust based on your content width */
   }
 }
 
@@ -163,7 +163,7 @@
 
     .od-elements {
       flex-direction: row; /* Keep items in a row for scrolling */
-      animation: scroll 15s linear infinite; /* Optional: Adjust speed if desired */
+      animation: scroll 10s linear infinite; /* Optional: Adjust speed if desired */
       }
   
 }
@@ -171,10 +171,12 @@
 
 @media (max-width: 590px) {
   .od-attribute {
+    flex: 0;
       width: 80%;
       margin: 0 auto;
   }
   .od-feature {
+    flex: 0;
     width: 80%;
     margin: 0 auto;
 }
