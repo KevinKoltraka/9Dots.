@@ -44,11 +44,11 @@ const Navbar = () => {
                         <Link to="" spy smooth >
                             <span>Blog</span>
                         </Link>
-                        <Link to="wwi-wrapper" spy smooth >
+                        <Link to="" spy smooth >
                             <span>Portfolio</span>
                         </Link>
                     </div>
-                    <div className="fund-button">
+                    <div className="fund-button" style={{ color: 'white' }}>
                         Start your journey
                     </div>
                 </div>
