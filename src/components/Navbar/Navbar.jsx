@@ -41,7 +41,7 @@ const Navbar = () => {
                         <Link to="wwi-wrapper" spy smooth >
                             <span>Recruiting</span>
                         </Link>
-                        <Link to="wwi-wrapper" spy smooth >
+                        <Link to="" spy smooth >
                             <span>Blog</span>
                         </Link>
                         <Link to="wwi-wrapper" spy smooth >

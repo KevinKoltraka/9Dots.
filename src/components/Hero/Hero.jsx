@@ -90,15 +90,6 @@ const Hero = () => {
 
                 {/* right Side */}
                 <div className="h-right">
-                    <div className="h-title">
-                        <span>Empowering Your</span>
-                        <span>Growth with</span>
-                        <span>Marketing and Recruitment Solutions.</span>
-                    </div>
-
-                    <div className="h-description">
-                    Transform your business with our expert services.
-                    </div>
                     <EmailBox />
                 </div>
             </div>
