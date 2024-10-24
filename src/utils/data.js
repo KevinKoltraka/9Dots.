@@ -107,6 +107,9 @@ export const HeroData = [
     {
       icon: "/OurDiff/Asset 20.png",
     },
+  ];
+
+    export const ourDiffAttributes = [
     {
       icon: "/OurDiff/Asset 19.png",
     },
@@ -122,8 +125,6 @@ export const HeroData = [
     {
       icon: "/OurDiff/Asset 15.png",
     },
-  ];
-    export const ourDiffAttributes = [
     {
       icon: "/OurDiff/Asset 14.png",
     },
@@ -139,6 +140,8 @@ export const HeroData = [
     {
       icon: "/OurDiff/Asset 10.png",
     },
+  ];
+    export const ourDiffElements = [
     {
       icon: "/OurDiff/Asset 9.png",
     },

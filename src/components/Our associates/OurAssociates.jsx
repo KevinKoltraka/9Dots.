@@ -1,6 +1,6 @@
 import React from 'react'
 import './OurAssociates.css'
-import { ourDiffFeatures, ourDiffAttributes } from '@/src/utils/data'
+import { ourDiffFeatures, ourDiffAttributes, ourDiffElements } from '@/src/utils/data'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { containerVariants, desVariants, tagVariants, titleVariants } from '@/src/utils/animation'
@@ -53,7 +53,7 @@ const OurDiff = () => {
                         ))
                     }
                 </div>
-                {/* features */}
+                {/* attributes */}
                 <div className="od-attributes">
                     {
                         ourDiffAttributes.map((feature, i)=> (
@@ -62,6 +62,21 @@ const OurDiff = () => {
                             initial="offscreen"
                             whileInView="onscreen"
                             key={i} className='od-attribute'>
+                                <Image src={feature.icon} alt="feature" width={128} height={128} />
+                                <span className='sec-title'>{feature.title}</span>
+                                <span className='text'>{feature.des}</span>
+                            </motion.div>
+                        ))
+                    }
+                </div>
+                <div className="od-elements">
+                    {
+                        ourDiffElements.map((feature, i)=> (
+                            <motion.div 
+                            variants={containerVariants((i + 1) * 0.1)}
+                            initial="offscreen"
+                            whileInView="onscreen"
+                            key={i} className='od-element'>
                                 <Image src={feature.icon} alt="feature" width={128} height={128} />
                                 <span className='sec-title'>{feature.title}</span>
                                 <span className='text'>{feature.des}</span>
