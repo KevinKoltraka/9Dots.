@@ -235,12 +235,20 @@ export const HeroData = [
     },
   ];
 
-  const FeatureList = () => {
+  import Image from 'next/image';
+
+const FeatureList = () => {
     return (
         <div>
             {hitFeatures.map((feature, index) => (
                 <div key={index} className="feature">
-                    <img src={feature.icon} alt={feature.title} />
+                    <Image 
+                        src={feature.icon} 
+                        alt={feature.title} 
+                        width={100} // Adjust the width as needed
+                        height={100} // Adjust the height as needed
+                        priority // Optional: Use priority if this image is important for loading
+                    />
                     <h3 style={{ color: 'white' }}>{feature.title}</h3>
                     <p>{feature.des}</p>
                 </div>
@@ -248,6 +256,7 @@ export const HeroData = [
         </div>
     );
 }
+
 export default FeatureList;
   
   export const whoWeInvest = [

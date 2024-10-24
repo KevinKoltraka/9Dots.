@@ -1,16 +1,16 @@
 export const containerVariants = (delay = 0) => ({
   offscreen: {
     opacity: 0,
-    y: 30,
+    y: 20, // Reduced y offset
   },
   onscreen: {
     opacity: 1,
     y: 0,
     transition: {
       type: "spring",
-      stiffness: 200, // Increased stiffness for quicker motion
-      damping: 8, // Reduced damping for less bounce
-      duration: 0.3, // Shorter duration for faster transition
+      stiffness: 100, // Decreased stiffness for less bounce
+      damping: 15, // Increased damping for smoother effect
+      duration: 0.2, // Short duration for fast transition
       delay,
     },
   },
@@ -19,16 +19,16 @@ export const containerVariants = (delay = 0) => ({
 export const tagVariants = {
   offscreen: {
     opacity: 0,
-    y: 10,
+    y: 5, // Reduced y offset
   },
   onscreen: {
     opacity: 1,
     y: 0,
     transition: {
       type: "spring",
-      stiffness: 200, // Increased stiffness
-      damping: 8, // Reduced damping
-      duration: 0.25, // Shorter duration for faster animation
+      stiffness: 100, // Decreased stiffness
+      damping: 15, // Increased damping
+      duration: 0.2,
     },
   },
 };
@@ -36,16 +36,16 @@ export const tagVariants = {
 export const titleVariants = {
   offscreen: {
     opacity: 0,
-    y: 30,
+    y: 20, // Reduced y offset
   },
   onscreen: {
     opacity: 1,
     y: 0,
     transition: {
       type: "spring",
-      stiffness: 180, // Increased stiffness
-      damping: 9, // Reduced damping
-      duration: 0.35, // Shorter duration for quicker entrance
+      stiffness: 100, // Decreased stiffness
+      damping: 15, // Increased damping
+      duration: 0.2,
     },
   },
 };
@@ -53,17 +53,17 @@ export const titleVariants = {
 export const desVariants = {
   offscreen: {
     opacity: 0,
-    y: 20,
+    y: 10, // Reduced y offset
   },
   onscreen: {
     opacity: 1,
     y: 0,
     transition: {
       type: "spring",
-      stiffness: 170, // Increased stiffness
-      damping: 10, // Reduced damping
-      duration: 0.3, // Shorter duration for smoother effect
-      delay: 0.05, // Slightly earlier trigger
+      stiffness: 100, // Decreased stiffness
+      damping: 15, // Increased damping
+      duration: 0.2,
+      delay: 0.02, // Minimal delay for quick trigger
     },
   },
 };
